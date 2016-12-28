@@ -1,0 +1,47 @@
+# Trivial test of initial board.
+java -ea ataxx.Main
+a7-b6
+a1-c1
+b6-d4
+c1-a1
+d4-c3
+a1-c1
+d4-d3
+c1-a1
+d4-e3
+a1-c1
+d4-e4
+c1-a1
+d4-e5
+a1-c1
+d4-d5
+c1-a1
+d4-c5
+a1-c1
+d4-c4
+c1-a1
+g1-e1
+a1-b2
+e1-g1
+b2-d2
+g1-g3
+d2-b2
+g3-g1
+b2-b4
+g1-e1
+c5-d6
+e1-g1
+e5-f4
+
+dump
+@<===
+@<  r - - - - - b
+@<  - - - b - - -
+@<  - - b b b - -
+@<  - b b r b b -
+@<  - - b b b - -
+@<  - - - - - - -
+@<  b - - - - - r
+@<===
+
+quit

@@ -1,0 +1,53 @@
+# Test Game Over with Consecutive Jumps.
+java -ea ataxx.Main
+manual blue
+start
+a7-a5
+g7-g5
+
+a5-a7
+g5-g7
+
+a7-a5
+g7-g5
+
+a5-a7
+g5-g7
+
+a7-a5
+g7-g5
+
+a5-a7
+g5-g7
+
+a7-a5
+g7-g5
+
+a5-a7
+g5-g7
+
+a7-a5
+g7-g5
+
+a5-a7
+g5-g7
+
+a7-a5
+g7-g5
+
+a5-a7
+g5-g7
+
+a7-a5
+@<Draw.
+
+dump
+@<===
+@<  - - - - - - b
+@<  - - - - - - -
+@<  r - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  b - - - - - r
+@<===
