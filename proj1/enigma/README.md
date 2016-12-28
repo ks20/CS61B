@@ -30,11 +30,16 @@ The effect of advancing a wheel is to change where on the wheel any given signal
 
 The contacts on the rightmost rotor's right side connect with stationary input and output contacts, which run to keys that, when pressed, direct current to the contact from a battery or, when not pressed, direct current back from the contact to a light bulb indicating a letter of the alphabet. Since a letter never encrypts or decrypts to itself after going back and forth through the rotors, the to and from directions never conflict.
 
-The German Navy used a machine with 12 rotors and five slots for them: --> Eight rotors labeled with roman numerals I—VIII, of which three will be used in any given configuration as the rightmost rotors, --> Two additional non-moving rotors (Zusatzwalzen) labeled "Beta" and "Gamma", of which one will be used in any configuration, as the fourth-from-right rotor, and --> Two reflectors (Umkehrwalzen), labeled 'B' and 'C', of which one will be used in any given configuration as the leftmost rotor.
+The German Navy used a machine with 12 rotors and five slots for them: 
+--> Eight rotors labeled with roman numerals I—VIII, of which three will be used in any given configuration as the rightmost rotors, 
+--> Two additional non-moving rotors (Zusatzwalzen) labeled "Beta" and "Gamma", of which one will be used in any configuration, as the fourth-from-right rotor, and 
+--> Two reflectors (Umkehrwalzen), labeled 'B' and 'C', of which one will be used in any given configuration as the leftmost rotor.
 
 Given just this equipment, there are 614,175,744 possible configurations (or keys):
 
--- Two possible reflectors, times -- Two possible rotors in the fourth position, times -- 8!/(8−3)!=336 choices for the rightmost three rotors and their ordering, times 26^4 possible initial rotational settings for the rightmost four rotors (each reflector had only one possible position.).
+-- Two possible reflectors, times 
+-- Two possible rotors in the fourth position, times 
+-- 8!/(8−3)!=336 choices for the rightmost three rotors and their ordering, times 26^4 possible initial rotational settings for the rightmost four rotors (each reflector had only one possible position.).
 
 Especially by today's standards, this is not a large key size (less than 30 bits). To make things more difficult for code-breakers, therefore, the Enigma incorporated a plugboard (Steckerbrett) between the keyboard and the rightmost wheel. It acted as a non-moving, configurable rotor. The operator could choose any set of disjoint pairs of letters by means cables placed between them on the plugboard. Each selected pair would then be swapped going into the machine from the keyboard and coming out into the indicator lights. Thus, if the operator connected ("steckered") the letters A and P, then P would be substituted for each A typed and vice versa. Likewise, if an ingoing letter was encrypted to P by the other rotors, it would display as A, and letters decrypted as A would display as P.
 
